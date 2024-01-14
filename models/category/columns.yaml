@@ -1,0 +1,12 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: wixcore.blog::lang.category.name
+        searchable: true
+
+    post_count:
+        label: wixcore.blog::lang.category.posts
+        sortable: false

@@ -1,0 +1,41 @@
+# ===================================
+#  Import/Export Behavior Config
+# ===================================
+
+import:
+    # Page title
+    title: wixcore.blog::lang.posts.import_post
+
+    # Import List Column configuration
+    list: $/wixcore/blog/models/postimport/columns.yaml
+
+    # Import Form Field configuration
+    form: $/wixcore/blog/models/postimport/fields.yaml
+
+    # Import Model class
+    modelClass: WixCore\Blog\Models\PostImport
+
+    # Redirect when finished
+    redirect: wixcore/blog/posts
+
+    # Required permissions
+    permissions: wixcore.blog.access_import_export
+
+export:
+    # Page title
+    title: wixcore.blog::lang.posts.export_post
+
+    # Output file name
+    fileName: posts.csv
+
+    # Export List Column configuration
+    list: $/wixcore/blog/models/postexport/columns.yaml
+
+    # Export Model class
+    modelClass: WixCore\Blog\Models\PostExport
+
+    # Redirect when finished
+    redirect: wixcore/blog/posts
+
+    # Required permissions
+    permissions: wixcore.blog.access_import_export

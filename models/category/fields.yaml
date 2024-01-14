@@ -1,0 +1,22 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: wixcore.blog::lang.category.name
+        placeholder: wixcore.blog::lang.category.name_placeholder
+        span: left
+
+    slug:
+        label: wixcore.blog::lang.category.slug
+        span: right
+        placeholder: wixcore.blog::lang.category.slug_placeholder
+        preset: name
+
+    description:
+        label: "wixcore.blog::lang.category.description"
+        size: large
+        oc.commentPosition: ""
+        span: full
+        type: textarea

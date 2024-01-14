@@ -1,0 +1,32 @@
+tabs:
+    fields:
+        show_all_posts:
+            span: full
+            label: wixcore.blog::lang.blog.show_all_posts_label
+            comment: wixcore.blog::lang.blog.show_all_posts_comment
+            type: switch
+            default: 1
+            tab: wixcore.blog::lang.blog.tab_general
+
+        preview_cms_page:
+            span: full
+            label: wixcore.blog::lang.blog.preview_cms_page_label
+            comment: wixcore.blog::lang.blog.preview_cms_page_comment
+            type: dropdown
+            tab: wixcore.blog::lang.blog.tab_general
+
+        use_legacy_editor:
+            span: full
+            label: wixcore.blog::lang.blog.use_legacy_editor_label
+            comment: wixcore.blog::lang.blog.use_legacy_editor_comment
+            type: switch
+            default: 0
+            tab: wixcore.blog::lang.blog.tab_general
+
+        force_richeditor_editor:
+            span: full
+            label: wixcore.blog::lang.blog.force_richeditor_editor_label
+            comment: wixcore.blog::lang.blog.force_richeditor_editor_comment
+            type: switch
+            default: 0
+            tab: wixcore.blog::lang.blog.tab_general

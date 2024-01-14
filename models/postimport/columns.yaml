@@ -1,0 +1,16 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+    id: ID
+    title: wixcore.blog::lang.post.title
+    content: wixcore.blog::lang.post.content
+    excerpt: wixcore.blog::lang.post.excerpt
+    slug: wixcore.blog::lang.post.slug
+    categories: wixcore.blog::lang.post.categories
+    author_email: wixcore.blog::lang.post.author_email
+    created_at: wixcore.blog::lang.post.created_date
+    updated_at: wixcore.blog::lang.post.updated_date
+    published: wixcore.blog::lang.post.published
+    published_at: wixcore.blog::lang.post.published_date

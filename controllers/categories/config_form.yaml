@@ -1,0 +1,16 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: wixcore.blog::lang.blog.create_category
+form: $/wixcore/blog/models/category/fields.yaml
+modelClass: WixCore\Blog\Models\Category
+defaultRedirect: wixcore/blog/categories
+
+create:
+    redirect: wixcore/blog/categories/update/:id
+    redirectClose: wixcore/blog/categories
+
+update:
+    redirect: wixcore/blog/categories
+    redirectClose: wixcore/blog/categories

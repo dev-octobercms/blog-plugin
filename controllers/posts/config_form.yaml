@@ -1,0 +1,16 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: wixcore.blog::lang.blog.create_post
+form: $/wixcore/blog/models/post/fields.yaml
+modelClass: WixCore\Blog\Models\Post
+defaultRedirect: wixcore/blog/posts
+
+create:
+    redirect: wixcore/blog/posts/update/:id
+    redirectClose: wixcore/blog/posts
+
+update:
+    redirect: wixcore/blog/posts
+    redirectClose: wixcore/blog/posts
